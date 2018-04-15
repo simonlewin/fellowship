@@ -7,7 +7,6 @@
 Select the HTML element. 438+ properties - see: [CSS Properties Index](https://meiert.com/en/indices/css-properties/) for a list of properties maintained by Jens Oliver Meiert. See also: [MDN web docs: CSS reference - **keyword index**](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index)
 
 Syntax:
-
 	selector {
 	  property: value;
 	    "        "
@@ -16,7 +15,6 @@ Syntax:
 Remember to open `{` and close `}`. CSS is less forgiving than HTML to syntax errors - remember also `:` and `;`
 
 Example of some CSS:
-
 	body {
 	  background-color: red;
 	}
@@ -35,7 +33,7 @@ Use `class` for the sake of consistency and because `id` holds a lot of weight
 
 `class` starts with `.`, `id` starts with `#`
 
-###Background - there are lots...###
+### Background - there are lots...
 
 `background-color:`, `background-image:`, `background-repeat:`, `background-position:`
 
@@ -51,7 +49,7 @@ You can have a gradient as a background image `linear-gradent()`, plus other CSS
 
 See: [MDN web docs: **url** data type](https://developer.mozilla.org/en-US/docs/Web/CSS/url) and [MDN web docs: **linear-gradient()** function](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
 
-###Borders###
+### Borders
 
 Tip to see where the boxes are - add a border e.g. `border: 1px solid blue;` 
 
@@ -71,7 +69,7 @@ Box shadow is NOT shorthand `box-shadow: 1px 1px 1px 0px grey` - `<offset-x>` `<
 
 See: [MDN web docs: **border-radius** CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
 
-###Selectors (again)###
+### Selectors (again)
 
 Type selector use HTML `element name` e.g. `header`, classes selector start with `.` e.g. `.classname`, id selector starts with `#` e.g. `#idname` - there's also _universal selector_ and _attribute selector_
 
@@ -83,14 +81,14 @@ To target a child use a space e.g. `.header-main nav li { ...` - selects parent 
 
 Link to [CSS Intro](https://gitpitch.com/develop-me/fellowship-wk1-beg-html-css?p=day02/01CSSIntro#/) presentation
 
-###Exercise 1 - use the styles you have learnt###
+### Exercise 1 - use the styles you have learnt
 
 Use `background` `border` `box-shadow` `border-radius`
 
 - - - -
 
 
-##CSS Colours Formats##
+## CSS Colours Formats
 
 Color names - [X11 color names](https://en.wikipedia.org/wiki/X11_color_names)
 
@@ -109,11 +107,11 @@ Link to [CSS Colour formats](https://gitpitch.com/develop-me/fellowship-wk1-beg-
 - - - -
 
 
-##CSS Box Model##
+## CSS Box Model
 
 The **CSS box model** is the foundation of layout on the Web - each element is represented as a rectangular box, with the box's content, padding, border, and margin built up around one another like the layers of an onion. As a browser renders a web page layout, it works out what styles are applied to the content of each box, how big the surrounding onion layers are, and where the boxes sit in relation to one another. 
 
-![alt text](CSS-box-model.png "Title")
+![CSS Box Model](CSS-box-model.png "CSS Box Model")
 
 Every element has a default set of styles
 
@@ -161,11 +159,11 @@ Link to [CSS Box Model](https://gitpitch.com/develop-me/fellowship-wk1-beg-html-
 - - - -
 
 
-##Exercise 2##
+## Exercise 2
 
 Make your page look like the picture `03ex02.png` with the things you have learnt
 
-###Exercise 2 - Review###
+### Exercise 2 - Review
 
 Tip - put a border around everything to see where the boxes are
 
@@ -180,7 +178,7 @@ To centre whole page target `<div class="">` wrapping the `<body>` and set the m
 - - - -
 
 
-##CSS Sizing units##
+## CSS Sizing units
 
 Pixels (`px`)
 
@@ -229,7 +227,7 @@ Others
 
 See: [MDN web docs: The **length** CSS data type ](https://developer.mozilla.org/en-US/docs/Web/CSS/length)
 
-###Position###
+### Position
 
 By default everything is `position: static;` 
 
@@ -260,14 +258,14 @@ Link to [CSS Sizing Units](https://gitpitch.com/develop-me/fellowship-wk1-beg-ht
 - - - -
 
 
-##Exercise 3##
+## Exercise 3
 
 Use `float` in the `<header>` to get the `<nav>` element to float 
 
 - - - -
 
 
-##Talk of the day##
+## Talk of the day
 
 Where does CSS come from? - Rachel Andrew at CSS conf EU 2017 [https://youtu.be/cYGOv2ToZjY](https://youtu.be/cYGOv2ToZjY)
 
@@ -283,7 +281,7 @@ CSS Grid - [https://www.w3.org/TR/css-grid-1/](https://bit.ly/2H01Ued)
 
 - - - -
 
-##Responsive & Adaptive Design##
+## Responsive & Adaptive Design
 
 Responding to the environment - e.g. resize to device
 
@@ -291,7 +289,7 @@ Adapting to the device - e.g. serving different sets of files for different devi
 
 Designs that work in all environments - screens, inside/outside, noisy/quiet, fibre/2G
 
-###How?###
+### How?
 
 Use relative not absolute units
 
@@ -301,7 +299,7 @@ JS feature & device detection
 
 Speedtesting is hard
 
-###Media queries - different types of media, like print###
+### Media queries - different types of media, like print
 
 `@media print { ... }`
 
@@ -309,11 +307,11 @@ Breakpoints like viewport width e.g. `@media only screen and (max-width: 500px) 
 
 For example:
 
-    /* Extra small devices (phones, less than 768px) */
-    @media (max-width: 767px) { ... }
-
-    /* Small devices (tablets, 768px and up) */
-    @media (min-width: 768px) and (max-width: 991px) { ... }
+	/* Extra small devices (phones, less than 768px) */
+	@media (max-width: 767px) { ... }
+	
+	/* Small devices (tablets, 768px and up) */
+	@media (min-width: 768px) and (max-width: 991px) { ... }
 
 	/* Medium devices (desktops, 992px and up) */
 	@media (min-width: 992px) and (max-width: 1199px) { ... }
@@ -321,7 +319,7 @@ For example:
 	/* Large devices (large desktops, 1200px and up) */
 	@media (min-width: 1200px) { ... }
 
-###JS feature & device detection###
+### JS feature & device detection
 
 JS libraries to detect
 
@@ -343,7 +341,7 @@ Modernizr is a small piece of JavaScript code that automatically detects the ava
 
 Use CSS where possible - cleaner, faster and easier to maintain using CSS-only approach and media queries.
 
-###Planning Responsive Layout###
+### Planning Responsive Layout
 
 Consider hierarchy and navigation - e.g. _burger icon_
 
@@ -363,13 +361,13 @@ Link to [Responsive & Adaptive Design](https://gitpitch.com/develop-me/fellowshi
 - - - -
 
 
-###Exercise 4###
+### Exercise 4
 
 use `@media only screen ... ` to create a responsive (to resize) design
 
 - - - -
 
-###Additional resources:###
+### Additional resources:
 
 * [Learn CSS Layout](http://learnlayout.com/)
 * CSS-Tricks [All About Floats](https://css-tricks.com/all-about-floats/)
