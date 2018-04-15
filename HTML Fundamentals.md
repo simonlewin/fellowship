@@ -1,6 +1,6 @@
 # HTML Fundamentals
 
-## Intro
+## Intro
 
 ### Industry Overview
 
