@@ -59,7 +59,7 @@ Two self closing elements:
 
 Tip - start typing `<htm..` in Sublime Text (subl), auto complete with _Tab_ and subl gives you a HTML template (with file saved as HTML)
 
-### HTML sectioning elements
+### HTML sectioning elements
 
 `<body>` - contains all content can only be one
 
@@ -155,7 +155,7 @@ See: [MDN web docs **HTML elements** reference](https://developer.mozilla.org/en
 
 ## More HTML 
 
-### HTML Text Elements
+### HTML Text Elements
 
 `<b>`, `<strong>` - The [HTML Strong Importance Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) indicates that its contents have strong importance. Browsers typically render the contents in bold type.
 
@@ -173,7 +173,7 @@ Note: `<font>` legacy element (& others) - no longer used, use CSS instead
 
 `<pre>` - preformatted text
 
-### Media Elements
+### Media Elements
 
 `<img src="" alt="" />` - image (self closing)
 
@@ -193,7 +193,7 @@ Note: `<font>` legacy element (& others) - no longer used, use CSS instead
 
 `<canvas>` - the graphic canvas element - use with either the canvas scripting API or the WebGL API to draw graphics and animations
 
-### Tables
+### Tables
 
 For displaying data NOT for layout
 Except email clients which don't render CSS so use tables
@@ -202,7 +202,7 @@ Except email clients which don't render CSS so use tables
 
 - - - -
 
-## Googling things...
+## Googling things...
 
 For HTML [w3schools.com](https://www.w3schools.com/) often comes up first but it's not good and it's not [w3c.org](https://www.w3.org/) the World Wide Web Consortium (W3C) who develop Web standards
 
@@ -218,7 +218,7 @@ Note that for resources like [HTML5 Rocks](https://www.html5rocks.com/en/), [Sma
 
 - - - -
 
-## Talk of the day
+## Talk of the day
 
 "Resilience" by Jeremy Keith at View Source Conference 2016 [https://youtu.be/W7wj7EDrSko](https://youtu.be/W7wj7EDrSko)
 
@@ -246,13 +246,13 @@ Technical credit of 1 & 2
 
 - - - -
 
-## Metadata
+## Metadata
 
 All the stuff in the `<head>`
 
 Use [HTML5 Boilerplate](https://html5boilerplate.com/) - "a professional front-end template for building fast, robust, and adaptable web apps or sites"
 
-* On GitHub see: [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/html.md)
+On GitHub see: [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/html.md)
 
 `<title></title>` - title element defines the title of the document, shown in a browser's title bar or on the page's tab
 
