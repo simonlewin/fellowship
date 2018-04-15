@@ -7,6 +7,7 @@
 Select the HTML element. 438+ properties - see: [CSS Properties Index](https://meiert.com/en/indices/css-properties/) for a list of properties maintained by Jens Oliver Meiert. See also: [MDN web docs: CSS reference - **keyword index**](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index)
 
 Syntax:
+
 	selector {
 	  property: value;
 	    "        "
@@ -15,6 +16,7 @@ Syntax:
 Remember to open `{` and close `}`. CSS is less forgiving than HTML to syntax errors - remember also `:` and `;`
 
 Example of some CSS:
+
 	body {
 	  background-color: red;
 	}
@@ -81,6 +83,7 @@ To target a child use a space e.g. `.header-main nav li { ...` - selects parent 
 
 Link to [CSS Intro](https://gitpitch.com/develop-me/fellowship-wk1-beg-html-css?p=day02/01CSSIntro#/) presentation
 
+- - - -
 ### Exercise 1 - use the styles you have learnt
 
 Use `background` `border` `box-shadow` `border-radius`
@@ -104,14 +107,12 @@ HSL with alpha - `hsla()` function e.g. hsla(200, 50%, 50%, 0.5) h, s, l, plus a
 
 Link to [CSS Colour formats](https://gitpitch.com/develop-me/fellowship-wk1-beg-html-css?p=day02/02CSSColours#/) presentaion
 
-- - - -
-
 
 ## CSS Box Model
 
 The **CSS box model** is the foundation of layout on the Web - each element is represented as a rectangular box, with the box's content, padding, border, and margin built up around one another like the layers of an onion. As a browser renders a web page layout, it works out what styles are applied to the content of each box, how big the surrounding onion layers are, and where the boxes sit in relation to one another. 
 
-![CSS Box Model](CSS-box-model.png "CSS Box Model")
+![alt text](CSS-box-model.png "Title")
 
 Every element has a default set of styles
 
@@ -157,7 +158,6 @@ See: [W3C Working Draft CSS2.2 Box Model](https://www.w3.org/TR/CSS22/box.html)
 Link to [CSS Box Model](https://gitpitch.com/develop-me/fellowship-wk1-beg-html-css?p=day02/03CSSboxModel#/) presentation
 
 - - - -
-
 
 ## Exercise 2
 
@@ -237,11 +237,11 @@ By default everything is `position: static;`
 
 `position: absolute;` - same as fixed (jumped out of flow & coord system) but doesn't scroll
 
-###Transforms###
+### Transforms
 
 Transform property e.g. `transform: rotate(30deg)` 
 
-###Floats###
+### Floats
 
 Get images and text to flow around elements e.g `float: right;`
 
@@ -256,7 +256,6 @@ Remember width includes padding unless using `border-box`
 Link to [CSS Sizing Units](https://gitpitch.com/develop-me/fellowship-wk1-beg-html-css?p=day02/05CSSSizing#) presentation
 
 - - - -
-
 
 ## Exercise 3
 
@@ -307,11 +306,11 @@ Breakpoints like viewport width e.g. `@media only screen and (max-width: 500px) 
 
 For example:
 
-	/* Extra small devices (phones, less than 768px) */
-	@media (max-width: 767px) { ... }
-	
-	/* Small devices (tablets, 768px and up) */
-	@media (min-width: 768px) and (max-width: 991px) { ... }
+    /* Extra small devices (phones, less than 768px) */
+    @media (max-width: 767px) { ... }
+
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991px) { ... }
 
 	/* Medium devices (desktops, 992px and up) */
 	@media (min-width: 992px) and (max-width: 1199px) { ... }
@@ -359,7 +358,6 @@ Further reading
 Link to [Responsive & Adaptive Design](https://gitpitch.com/develop-me/fellowship-wk1-beg-html-css?p=day02/04responsive#/) presentation
 
 - - - -
-
 
 ### Exercise 4
 
