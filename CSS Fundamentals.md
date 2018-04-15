@@ -7,7 +7,6 @@
 Select the HTML element. 438+ properties - see: [CSS Properties Index](https://meiert.com/en/indices/css-properties/) for a list of properties maintained by Jens Oliver Meiert. See also: [MDN web docs: CSS reference - **keyword index**](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index)
 
 Syntax:
-
 	selector {
 	  property: value;
 	    "        "
@@ -16,7 +15,6 @@ Syntax:
 Remember to open `{` and close `}`. CSS is less forgiving than HTML to syntax errors - remember also `:` and `;`
 
 Example of some CSS:
-
 	body {
 	  background-color: red;
 	}
